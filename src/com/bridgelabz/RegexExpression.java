@@ -13,7 +13,7 @@ public class RegexExpression
 
 	public static void main(String[] args) {
 
-		String pattern = "^[A-Z]{1}[a-zA-Z0-9]{8,}$";
+		String pattern = "^[A-Z]{1}[a-zA-Z0-9]{1,}[!@#$%^&]{1,}[a-zA-Z0-9]{1,}$";
 
 		Scanner scanner = new Scanner(System.in);
 		System.out.println("Please Enter Password =>");
